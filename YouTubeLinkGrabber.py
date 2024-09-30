@@ -4,7 +4,7 @@ import os
 
 def grab(url):
     response = requests.get(url, timeout = 5).text
-    print(url)
+    print(response)
     if '.m3u8' not in response:
         return
         
