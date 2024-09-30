@@ -8,6 +8,7 @@ def grab(url):
         return
         
     end = response.find('.m3u8')
+    print(end)
     if (end < 0):
         return
 
