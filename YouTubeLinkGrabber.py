@@ -36,5 +36,7 @@ print ("Start grabbing")
 #grab(sys.argv[1])
 #grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
 grab('https://www.youtube.com/watch?v=lf1NxAexRAE')
+grab('https://ipinfo.io')
+
 print ("End grabbing")
             
