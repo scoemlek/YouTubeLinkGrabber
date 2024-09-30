@@ -3,7 +3,7 @@ import requests
 import os
 
 def grab(url):
-    response = requests.get(url, timeout = 15).text
+    response = requests.get(url, timeout = 5).text
     if '.m3u8' not in response:
         return
         
@@ -24,6 +24,7 @@ def grab(url):
             break
         else:
             tuner += 5
+            
     print(f"{link[start : end]}")
 
 #grab(sys.argv[1])
