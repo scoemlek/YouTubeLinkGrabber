@@ -21,7 +21,7 @@ jobs:
 
         run: |
           git config --global user.email "you@example.com"
-          git config --global user.name "scoemlek"
+          git config --global user.name "SCOE"
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
 
