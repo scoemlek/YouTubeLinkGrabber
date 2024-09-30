@@ -25,5 +25,6 @@ def grab(url):
             tuner += 5
     print(f"{link[start : end]}")
 
-grab(sys.argv[1])
+#grab(sys.argv[1])
+grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
             
