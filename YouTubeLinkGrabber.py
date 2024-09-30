@@ -7,7 +7,7 @@ def grab(url):
     if '.m3u8' not in response:
         return
         
-    end = response.find('.m3u8') + 5
+    end = response.find('.m3u8')
     if (end < 0):
         return
 
