@@ -27,7 +27,10 @@ def grab(url):
             
     print(f"{link[start : end]}")
 
-
+if 'temp.txt' in os.listdir():
+    os.system('rm temp.txt')
+    os.system('rm watch*')
+    
 print ("Start grabbing")
 #grab(sys.argv[1])
 #grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
