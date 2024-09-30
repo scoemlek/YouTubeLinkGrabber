@@ -9,7 +9,6 @@ def grab(url):
         
     end = response.find('.m3u8') + 5
     if (end < 0):
-        print("")
         return
 
     end = end + 5
@@ -26,8 +25,5 @@ def grab(url):
             tuner += 5
     print(f"{link[start : end]}")
 
-grab(line)
+grab(sys.argv[1])
             
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
