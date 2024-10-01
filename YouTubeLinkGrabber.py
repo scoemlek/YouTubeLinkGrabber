@@ -7,15 +7,9 @@ def grab(url):
     print(response)
     if '.m3u8' not in response:
         return
-        
-    end = response.find('.m3u8')
+    end = response.find('.m3u8') + 5
     print(end)
-    if (end < 0):
-        return
 
-    end = end + 5
-    print(end)
-    
     tuner = 100
     while True:
         if 'https://' in response[end - tuner : end]:
