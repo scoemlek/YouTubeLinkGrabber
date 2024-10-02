@@ -39,11 +39,12 @@ if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
     
-print ("Start grabbing")
+#print ("Start grabbing")
 if len(sys.argv) > 1:
     grab(sys.argv[1])
-grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
+	
+#grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
 #grab('https://www.youtube.com/watch?v=lf1NxAexRAE')
 #grab('https://ipinfo.io')
-print ("End grabbing")
+#print ("End grabbing")
             
