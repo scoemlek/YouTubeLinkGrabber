@@ -1,11 +1,14 @@
 #! /usr/bin/python3
+import sys
 import requests
 import os
 import urllib3
+from urllib.parse import unquote
 
 def grab(url):
 
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+	
     proxies = { 
 	"http" : "194.164.206.37:3128", 
 	"https": "194.164.206.37:3128"
@@ -15,10 +18,12 @@ def grab(url):
     #print(response)
     if '.m3u8' not in response:
         return
+	    
     end = response.find('.m3u8') + 5
-    print(end)
-
+    #print(end)
+    
     tuner = 100
+
     while True:
         if 'https://' in response[end - tuner : end]:
             link = response[end - tuner : end]
@@ -28,17 +33,18 @@ def grab(url):
         else:
             tuner += 5
             
-    print(f"{link[start : end]}")
+    url = unquote(link[start : end])
+    print(url)
 
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
     
 print ("Start grabbing")
-#grab(sys.argv[1])
-#grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
-grab('https://www.youtube.com/watch?v=lf1NxAexRAE')
-grab('https://ipinfo.io')
-
+if len(sys.argv) > 1:
+    grab(sys.argv[1])
+grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
+#grab('https://www.youtube.com/watch?v=lf1NxAexRAE')
+#grab('https://ipinfo.io')
 print ("End grabbing")
             
