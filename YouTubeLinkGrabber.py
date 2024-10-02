@@ -1,10 +1,18 @@
 #! /usr/bin/python3
 import requests
 import os
+import urllib3
 
 def grab(url):
-    response = requests.get(url, timeout = 5).text
-    print(response)
+
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    proxies = { 
+	"http" : "194.164.206.37:3128", 
+	"https": "194.164.206.37:3128"
+    }    
+    
+    response = requests.get(url, proxies=proxies, verify=False, headers={'User-Agent': 'Chrome'}).text
+    #print(response)
     if '.m3u8' not in response:
         return
     end = response.find('.m3u8') + 5
