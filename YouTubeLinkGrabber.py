@@ -12,8 +12,8 @@ def grab(url):
     proxies = { 
 	"http" : "194.164.206.37:3128", 
 	"https": "194.164.206.37:3128"
-    }    
-    
+    }
+   
     response = requests.get(url, proxies=proxies, verify=False, headers={'User-Agent': 'Chrome'}).text
     #print(response)
     if '.m3u8' not in response:
