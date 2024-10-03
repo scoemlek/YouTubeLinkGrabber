@@ -33,7 +33,13 @@ def grab(url):
             tuner += 5
             
     url = unquote(link[start : end])
-    print(requests.get(url).text)
+    url = requests.get(url).text
+    index = url.rfind("#EXT-X-STREAM-INF")
+    url = url[index:]
+
+    print("#EXTM3U")
+    print("#EXT-X-INDEPENDENT-SEGMENTS")
+    print(url)
     
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
