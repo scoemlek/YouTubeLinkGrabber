@@ -10,8 +10,8 @@ def grab(url):
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 	
     proxies = { 
-	"http" : "http://194.164.206.37:3128", 
-	"https": "http://194.164.206.37:3128"
+	"http" : "http://217.160.171.248:8888", 
+	"https": "http://217.160.171.248:8888"
     }
     response = requests.get(url, proxies=proxies, verify=False, headers={'User-Agent': 'Chrome'}).text
     #print(response)
