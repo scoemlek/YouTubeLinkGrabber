@@ -33,8 +33,8 @@ def grab(url):
             tuner += 5
             
     url = unquote(link[start : end])
-    print(url)
-
+    print(requests.get(url).text)
+    
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
