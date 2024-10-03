@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=4561186,CODECS="mp4a.40.2,avc1.4d4028",RESOLUTION=1920x1080,FRAME-RATE=30,VIDEO-RANGE=SDR,CLOSED-CAPTIONS=NONE
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1727971869/ei/vW3-ZrmLHuDXi9oP48X7qAE/ip/217.93.70.39/id/lf1NxAexRAE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51273600/txs/51273600%2C51273601%2C51273602%2C51273605/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/54MbxWKbHJS-Aq0lB1DqHwSxvyAkoCJfxYbEObnIjSdWE20huMUUjC3iQMxG/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51300760%2C51308289/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgR798eUjAtzFjoaEDR_Lg3UxO7mY48XTmcVgN6WgxMXUCIAE0-Mb1m-y1f09pGZNi5Wld2UiLjGOsrV9NOnTTS9py/file/index.m3u8
