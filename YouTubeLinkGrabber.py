@@ -13,8 +13,10 @@ def grab(url):
 	"http" : "http://217.160.171.248:8888", 
 	"https": "http://217.160.171.248:8888"
     }
-    response = requests.get(url, proxies=proxies, verify=False, headers={'User-Agent': 'Chrome'}).text
+    response = requests.get(url).text
+    #response = requests.get(url, proxies=proxies, verify=False, headers={'User-Agent': 'Chrome'}).text
     #print(response)
+	
     if '.m3u8' not in response:
         return
 	    
@@ -48,9 +50,7 @@ if 'temp.txt' in os.listdir():
 #print ("Start grabbing")
 if len(sys.argv) > 1:
     grab(sys.argv[1])
-	
-#grab('https://www.youtube.com/watch?v=o35l3S6_2h8')
-#grab('https://www.youtube.com/watch?v=lf1NxAexRAE')
+
 #grab('https://ipinfo.io')
 #print ("End grabbing")
             
