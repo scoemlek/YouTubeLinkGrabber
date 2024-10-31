@@ -12,7 +12,7 @@ import locale
 def grab(url):
 
     ytpath = 'https://www.youtube.com'
-    yt_dlp = YoutubeDL(dict(forceurl=True))
+    yt_dlp = YoutubeDL(dict(forceurl=True, quiet=True))
 
     locale.setlocale(locale.LC_TIME, 'tr_TR.UTF-8')
     currentDate = datetime.datetime.now()
