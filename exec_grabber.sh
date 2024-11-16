@@ -20,7 +20,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=VF2zggx54Hs > ./TA
 
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=BJ3Yv572V1A > ./NatGeoWild.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=CngwZ2EM8Mw > ./Kabe.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=AAxY_G9UcdA > ./TgrtEU.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4XtE9TdzN2Q > ./TgrtEU.m3u8
 
 python3 ../MügeAnliGrabber.py
 
