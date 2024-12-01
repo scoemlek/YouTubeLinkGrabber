@@ -18,9 +18,11 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=rMjgoq_tMPE > ./Ye
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=VF2zggx54Hs > ./TAFFPictures.m3u8
 
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=BJ3Yv572V1A > ./NatGeoWild.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=qvwx78QtjeA > ./Kabe.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=TBF-fYm-cTI > ./Kabe.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4XtE9TdzN2Q > ./TgrtEU.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ay5qBS0PUg4 > ./SemerkandTV.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=6qtUZDWaOjo > ./TRTNostalji.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=xRPjKQtRXR8 > ./NasaLiveStream.m3u8
 
 python3 ../MügeAnliGrabber.py
 
