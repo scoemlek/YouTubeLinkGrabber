@@ -21,6 +21,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4q6AOpVpwrw > ./Ka
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=kcGTyBZE4f8 > ./TgrtEU.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4dzyivYbKCM > ./SemerkandTV.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=6qtUZDWaOjo > ./TRTNostalji.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ftfJHeVJbek > ./ibo.m3u8
 
 python3 ../MügeAnliGrabber.py
 
