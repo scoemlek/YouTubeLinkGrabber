@@ -13,13 +13,13 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=6wHAK439FDI > ./Eu
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=lf1NxAexRAE > ./CennetMahallesi.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=mAgDolOMCkY > ./YeniGelin.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=hfx8H7YrmTw > ./KemalSunalGulsah.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=wi75yRkoK4A > ./YesilcamArzu.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=UgKxh04Iv9o > ./YesilcamArzu.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Hc-2ShK4YHI > ./TAFFPictures.m3u8
 
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=0-ULTdNUtDo > ./NatGeoWild.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4q6AOpVpwrw > ./Kabe.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=x5MkVTvOViQ > ./NatGeoWild.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=wek2Nh_XeoY > ./Kabe.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=kcGTyBZE4f8 > ./TgrtEU.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=4dzyivYbKCM > ./SemerkandTV.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=KW3v1Dubc08 > ./SemerkandTV.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=6qtUZDWaOjo > ./TRTNostalji.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ftfJHeVJbek > ./ibo.m3u8
 
