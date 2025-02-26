@@ -11,7 +11,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Y3vGHFrsqrs > ./Sh
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=6wHAK439FDI > ./EuroD.m3u8
 
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=lf1NxAexRAE > ./CennetMahallesi.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=mAgDolOMCkY > ./YeniGelin.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=-75iiMuNWxc > ./YeniGelin.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=hfx8H7YrmTw > ./KemalSunalGulsah.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=UgKxh04Iv9o > ./YesilcamArzu.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Hc-2ShK4YHI > ./TAFFPictures.m3u8
