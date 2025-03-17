@@ -19,7 +19,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Hc-2ShK4YHI > ./TA
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=oPCwpbLLPTo > ./NatGeoWild.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=wek2Nh_XeoY > ./Kabe.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Gq20kW8WsU0 > ./TgrtEU.m3u8
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=TNNwXXbanXs > ./SemerkandTV.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/@semerkandtv/live > ./SemerkandTV.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ftfJHeVJbek > ./ibo.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=DbQ4HGgr7Xo > ./ntv.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=nmY9i63t6qo > ./aHaber.m3u8
