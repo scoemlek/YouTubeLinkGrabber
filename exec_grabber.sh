@@ -24,6 +24,6 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ftfJHeVJbek > ./ib
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=DbQ4HGgr7Xo > ./ntv.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@Ahaber/live > ./aHaber.m3u8
 
-python3 ../MügeAnliGrabber.py
+#python3 ../MügeAnliGrabber.py
 
 echo M3U grabbed.
