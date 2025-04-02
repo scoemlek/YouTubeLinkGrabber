@@ -23,6 +23,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/@semerkandtv/live > ./Seme
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ftfJHeVJbek > ./ibo.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=DbQ4HGgr7Xo > ./ntv.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@Ahaber/live > ./aHaber.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/@CocuklarDuymasnKanalD/live > ./duymasin.m3u8
 
 #python3 ../MügeAnliGrabber.py
 
