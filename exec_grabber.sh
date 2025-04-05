@@ -16,7 +16,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=hfx8H7YrmTw > ./Ke
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=UgKxh04Iv9o > ./YesilcamArzu.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Hc-2ShK4YHI > ./TAFFPictures.m3u8
 
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=oPCwpbLLPTo > ./NatGeoWild.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/@NationalGeographicEspanol/live > ./NatGeoWild.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/live > ./Kabe.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=Gq20kW8WsU0 > ./TgrtEU.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@semerkandtv/live > ./SemerkandTV.m3u8
