@@ -3,7 +3,7 @@
 
 #python3 YouTubeLinkGrabber.py > ./youtube.m3u
 
-python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=o35l3S6_2h8 > ./atv.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/@atvturkiye/live > ./atv.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=82O6yOy_XwE > ./EuroStar.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=ouuCjEjyKVI > ./ShowTV.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/watch?v=XnvS-RZa4Qw > ./ShowTurk.m3u8
