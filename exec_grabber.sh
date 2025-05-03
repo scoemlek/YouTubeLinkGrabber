@@ -25,6 +25,7 @@ python3 YouTubeLinkGrabber.py https://www.youtube.com/ntv/live > ./ntv.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@Ahaber/live > ./aHaber.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@CocuklarDuymasnKanalD/live > ./duymasin.m3u8
 python3 YouTubeLinkGrabber.py https://www.youtube.com/@cnnturk/live > ./cnn.m3u8
+python3 YouTubeLinkGrabber.py https://www.youtube.com/@ulketv/live > ./ulke.m3u8
 
 #python3 ../MügeAnliGrabber.py
 
